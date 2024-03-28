@@ -1,31 +1,31 @@
 #bio {
-    max-width: 800px; /* Adjusts the width of the bio section */
-    margin: auto; /* Centers the section on the page */
+    max-width: 800px; 
+    margin: auto; 
     padding: 20px;
 }
 
 #bio h2 {
-    color: #333; /* A dark shade for headings */
+    color: #333; 
     margin-top: 20px;
 }
 
 .profile-pic {
-    max-width: 100px; /* Adjust size as needed */
-    border-radius: 50%; /* Creates a circular profile picture */
-    float: left; /* Aligns the image to the left */
-    margin-right: 20px; /* Adds space between the image and text */
+    max-width: 100px; 
+    border-radius: 50%; 
+    float: left; 
+    margin-right: 20px; 
 }
 
 #bio p {
-    text-align: justify; /* Improves readability */
-    line-height: 1.6; /* Increases space between lines */
+    text-align: justify; 
+    line-height: 1.6; 
 }
 
 #bio a {
-    color: #007bff; /* Gives links a standard blue color */
-    text-decoration: none; /* Removes underline from links */
+    color: #007bff; 
+    text-decoration: none; 
 }
 
 #bio a:hover {
-    text-decoration: underline; /* Adds underline on hover for better interactivity */
+    text-decoration: underline; 
 }

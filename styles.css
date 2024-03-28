@@ -1,7 +1,15 @@
+body {
+    background-color: #f0f2f5;
+    
+}
+
+
 #bio {
     max-width: 800px; 
     margin: auto; 
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 #bio h2 {
@@ -29,3 +37,5 @@
 #bio a:hover {
     text-decoration: underline; 
 }
+
+

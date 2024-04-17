@@ -1,10 +1,115 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start fully transparent */
+        transform: translateY(-50px); /* Start 20px above the original position */
+    }
+    to {
+        opacity: 1; /* End fully opaque */
+        transform: translateY(0); /* End at the original position */
+    }
+}
+
+header {
+    text-align: center; /* Centers the text horizontally within the header */
+    width: 100%; /* Ensures the header extends full width */
+    padding: 20px 0; /* Adds some padding above and below the text */
+    color: rgb(44, 36, 37); /* Dark color for text */
+    animation: fadeIn 1s ease-out forwards; /* Applying the animation */
+}
 body {
-    background-color: #f0f2f5;
-    
+    background-color: #ccc; 
 }
 
 
+h2 {
+    font-kerning:  auto ;
+    font-style: italic;
+    
+}
+
+section {
+    border: 2px solid #808080; /* Adds a light grey border */
+    padding: 20px; /* Adds space inside the borders */
+    margin-top: 30px; /* Space above each section */
+    margin-bottom: 50px; /* Space below each section */
+    background-color: #fff; /* Optional: Adds a white background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+#about-me {
+    margin-top: 50px; /* Space above each paragraph */
+    margin-bottom: 50px; /* Space below each paragraph */
+    animation: fadeIn 1.25s ease-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    transform: scale(1); /* Normal size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    margin: 20px; /* Ensure there's space around the section */
+    padding: 20px; /* Padding inside the section */
+    background-color: #fff; /* Background color for visibility */
+}
+
+#about-me:hover {
+    transform: scale(1.1); /* Enlarge the section by 10% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increase shadow for pop effect */
+}
+
+#professional-journey {
+    margin-top: 20px; /* Space above each paragraph */
+    margin-bottom: 60px; /* Space below each paragraph */
+    animation: fadeIn 1.5s ease-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    transform: scale(1); /* Normal size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    margin: 20px; /* Ensure there's space around the section */
+    padding: 20px; /* Padding inside the section */
+    background-color: #fff; /* Background color for visibility */
+}
+
+#professional-journey:hover {
+    transform: scale(1.1); /* Enlarge the section by 10% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increase shadow for pop effect */
+}
+
+#project-management {
+    margin-top: 50px; /* Space above each paragraph */
+    margin-bottom: 50px; /* Space below each paragraph */
+    animation: fadeIn 1.75s ease-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    transform: scale(1); /* Normal size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    margin: 20px; /* Ensure there's space around the section */
+    padding: 20px; /* Padding inside the section */
+    background-color: #ffffff; /* Background color for visibility */
+}
+
+#project-management:hover {
+    transform: scale(1.1); /* Enlarge the section by 10% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increase shadow for pop effect */
+}
+
+#collaboration {
+    margin-top: 20px; /* Space above each paragraph */
+    margin-bottom: 50px; /* Space below each paragraph */
+    animation: fadeIn 2s ease-out forwards;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    transform: scale(1); /* Normal size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    margin: 20px; /* Ensure there's space around the section */
+    padding: 20px; /* Padding inside the section */
+    background-color: #fff; /* Background color for visibility */
+    display: block; /* Make the link fill the entire section */
+    cursor: pointer; /* Change cursor to indicate clickable area */
+    color: inherit; /* Inherits text color from parent */
+    text-decoration: none; /* Removes underline from link */
+}
+
+#collaboration:hover {
+    transform: scale(1.1); /* Enlarge the section by 10% */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increase shadow for pop effect */
+}
+
 #bio {
+    font-size: large;
     max-width: 800px; 
     margin: auto; 
     padding: 20px;
@@ -24,7 +129,7 @@ body {
     margin-right: 20px; 
 }
 
-#bio p {
+#bio {
     text-align: justify; 
     line-height: 1.6; 
 }
@@ -37,5 +142,8 @@ body {
 #bio a:hover {
     text-decoration: underline; 
 }
+
+
+
 
 

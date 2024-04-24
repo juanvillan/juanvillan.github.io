@@ -33,15 +33,19 @@ body {
 }
 
 footer {
-
-    color: rgb(0, 0, 0);
+    color: #ffffff; /* White text */
+    background-color: #333333; /* Dark gray background */
     text-align: center;
     padding: 20px 0;
 }
 
+footer a, footer a:hover {
+    color: #ffffff; /* Ensuring links are also white, with an underline on hover */
+    text-decoration: none; /* Default state without underline */
+}
+
 footer a:hover {
-    color: rgb(0, 0, 0)818;
-    text-decoration: underline;
+    text-decoration: underline; /* Only underline on hover */
 }
 
 .topnav {
@@ -300,5 +304,3 @@ section {
 header h2 {
     margin-left: -100px;
 }
-
-

@@ -1,0 +1,29 @@
+Issue 1: footer does not meet standards with a color contrast ration of 4.5:1
+footer {
+    color: rgb(0, 0, 0); /* Black text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0, 0.818); /* Dark gray on hover - there's a syntax error here with an extra 8 */
+    text-decoration: underline;
+}
+
+Issue 1 Fix: updated css  
+footer {
+    color: #ffffff; /* White text */
+    background-color: #333333; /* Dark gray background */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a, footer a:hover {
+    color: #ffffff; /* Ensuring links are also white, with an underline on hover */
+    text-decoration: none; /* Default state without underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Only underline on hover */
+}
+
